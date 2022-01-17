@@ -4966,7 +4966,7 @@ img{
 
 .services-section{
 	position:relative;
-	padding:100px 0px 250px;
+	padding:200px 0px 250px;
 	background-color:#000;
 }
 
@@ -4986,6 +4986,7 @@ img{
 }
 .services-section .pattern-layer{	
     background-position: top left 83%;
+	background-size: cover;
 }
 .home-service-block .inner-box {
     padding: 20px !important;
@@ -5029,10 +5030,10 @@ img{
 	-o-transition:all 500ms ease;
 	background-image: -ms-linear-gradient(top, #131E39 0%, #015FFD 100%);
 	background-image: -moz-linear-gradient(top, #131E39 0%, #015FFD 100%);
-	background-image: -o-linear-gradient(top, #131E39 0%, #015FFD 100%);
+	/* background-image: -o-linear-gradient(top, #131E39 0%, #015FFD 100%);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #131E39), color-stop(100, #015FFD));
 	background-image: -webkit-linear-gradient(top, #131E39 0%, #015FFD 100%);
-	background-image: linear-gradient(to bottom, #131E39 0%, #015FFD 100%);
+	background-image: linear-gradient(to bottom, #131E39 0%, #015FFD 100%); */
 }
 
 .service-block .inner-box:hover::before{
@@ -5924,7 +5925,7 @@ img{
 	top:0px;
 	right:0px;
 	bottom:0px;
-	background-color:rgba(20,29,56,0.95);
+	background-color:rgba(0,0,0,0.75);
 }
 
 .technology-section .pattern-layer-one{
@@ -6668,9 +6669,17 @@ img{
 
 .main-footer.style-three .footer-bottom{
 	border:none;
-	background-color:#ed162b;
+	background-color:#000;
 }
-
+@media (min-width:991px){
+	.main-footer.style-three .footer-bottom {
+		border: none;
+		background-color: rgba(0,0,0,0.3);
+		position: absolute;
+		width: 100%;
+		top: 3px;
+	}
+}
 /*** 
 
 ====================================================================
@@ -9340,7 +9349,7 @@ img{
 	top:0px;
 	right:0px;
 	bottom:0px;
-	background-color:rgba(19,33,68,0.60);
+	background-color:rgba(237,22,43,0.50);
 }
 
 .info-section .logo-column{

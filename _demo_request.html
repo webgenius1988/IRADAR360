@@ -1,0 +1,53 @@
+<div class="modal fade" id="request-demo">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Request a Meeting</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form id="frmRequest" method="post">
+					<div class="row">
+						<div class="col-md-12 col-lg-6">
+							<div class="mb-4">
+								<label for="FirstName" class="form-label required">First Name</label>
+								<input type="text" name="fname" class="form-control " id="FirstName" required>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-6">
+							<div class="mb-4">
+								<label for="LastName" class="form-label required">Last Name</label>
+								<input required type="text" name="lname" class="form-control" id="LastName">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-lg-6">
+							<div class="mb-4">
+								<label for="WorkEmail" class="form-label required required">Work Email</label>
+								<input required type="email" name="email" class="form-control" id="WorkEmail" required>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-6">
+							<div class="mb-4">
+								<label for="WorkPhone" class="form-label required">Work Phone</label>
+								<input required type="tel" name="phone" class="form-control" id="WorkPhone">
+							</div>
+						</div>
+					</div>
+
+
+
+
+					<input type="hidden" name="action" value="requestademo" />
+					<button type="submit" class="btn theme-btn theme-primary-btn">Submit</button>
+				</form>
+
+				<div class="mb-4 success-msg" id="successBox" style="display:none;">
+					<h6>Thanks for Requesting Demo. Our Demo team will get in touch with you.</h6>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

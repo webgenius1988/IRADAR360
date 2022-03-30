@@ -13034,3 +13034,61 @@ img {
 .teams-card .teams-job-title a:hover {
   color: #ed162b;
 }
+.modal-header {
+  border-bottom: none;
+  padding: 1rem 1.5rem;
+}
+.modal-body {
+  padding: 1.5rem;
+}
+.members-bio-card {
+  display: flex;
+  width: 100%;
+}
+
+.members-bio-img {
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 30px;
+  overflow: hidden;
+  height: 25%;
+  margin-top: 35px;
+}
+.members-text {
+  margin-top: 40px;
+  width: 75%;
+  text-align: justify;
+}
+
+.members-bio-name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.members-bio-name a:hover,
+.members-job-title a:hover {
+  color: #ed162b;
+}
+.members-job-title {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.members-text p {
+  font-weight: 200;
+  line-height: 30px;
+  font-size: 18px;
+}
+.btn:focus,
+.btn-close:focus {
+  box-shadow: none;
+}
+.rp-logo {
+  width: 200px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 999px;
+}

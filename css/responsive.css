@@ -617,6 +617,9 @@
   .contact-info {
     flex-direction: column-reverse;
   }
+  .info-section.footer {
+    padding-bottom: 0;
+  }
   .career-card-outer,
   .teams-card-outer {
     width: 100%;

@@ -9397,7 +9397,7 @@ img {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: rgba(237, 22, 43, 0.5);
+  background-color: #000;
 }
 
 .info-section .logo-column {
@@ -10856,7 +10856,7 @@ img {
 .contact-info-section .info-column .inner-column .content {
   position: relative;
   padding-left: 60px;
-  min-height: 135px;
+  min-height: 50px;
 }
 
 .contact-info-section .info-column .icon-box {

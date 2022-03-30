@@ -10806,7 +10806,7 @@ img {
 
 .contact-info-section {
   position: relative;
-  padding: 110px 0px 100px;
+  padding: 60px 0px 100px;
 }
 
 .contact-info-section .title-box {
@@ -10817,7 +10817,9 @@ img {
 .contact-info-section .title-box .title {
   position: relative;
   color: #ed162b;
-  font-size: 16px;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 0.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }

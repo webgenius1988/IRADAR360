@@ -101,6 +101,9 @@ a {
   cursor: pointer;
   color: #ed162b;
 }
+a:hover {
+  color: #ed162b;
+}
 
 button,
 a:hover,
@@ -13093,4 +13096,11 @@ img {
   top: 5%;
   right: 5%;
   z-index: 999px;
+}
+.content a {
+  color: #555555;
+  transition: all 0.3s ease;
+}
+.content a:hover {
+  color: #ed162b;
 }

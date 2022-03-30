@@ -245,7 +245,7 @@
       margin: 0,
       nav: true,
       autoHeight: false,
-      smartSpeed: 3000,
+      smartSpeed: 6000,
       autoplay: 6000,
       navText: [
         '<span class="flaticon-back-1"></span>',

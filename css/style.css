@@ -13104,3 +13104,7 @@ img {
 .content a:hover {
   color: #ed162b;
 }
+.form-select:focus {
+  box-shadow: none;
+  border-color: #ed162b;
+}
